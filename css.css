@@ -11165,11 +11165,17 @@ header.masthead header.masthead2 h1 {
 .flip-image:hover {
     opacity: 0;
     transition: 1s;
+
+    &+.rate {
+        opacity: 1;
+        transition: 1s;
+    }
 }
 
 .rate {
     font-size: 50px;
     color: #007bff;
+    opacity: 0;
 }
 
 /* scrollbar */
