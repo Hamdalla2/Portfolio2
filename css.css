@@ -11045,6 +11045,9 @@ header.masthead {
     background-attachment: scroll;
     background-size: 100% 100%;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header.masthead2 {
@@ -11056,6 +11059,9 @@ header.masthead2 {
     background-attachment: scroll;
     background-size: 100% 100%;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header.masthead header.masthead2 h1 {
@@ -11159,7 +11165,10 @@ header.masthead header.masthead2 h1 {
 
 .flip-image {
     position: absolute;
-    z-index: 1
+    z-index: 1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .flip-image:hover {
